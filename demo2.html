@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>smile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button>somvi</button>
+    <script type="text/javascript" defer>
+      var color = ["#3236a8", "#91918c", "#918c8c"];
+      var i = 0;
+      document.querySelector("button").addEventListener("click", function () {
+        i = i < color.length ? ++i : 0;
+        document.querySelector("body").style.background = color[i];
+      });
+    </script>
+  </body>
+</html>
